@@ -1,0 +1,21 @@
+.overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day,
+.year {
+  width: 40%;
+}
+
+.day > div,
+.year > div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: dashed 2px rgb(176, 176, 176);
+}
+
+.day > div :nth-child(1),
+.year > div :nth-child(1) {
+  color: rgb(176, 176, 176);
+}

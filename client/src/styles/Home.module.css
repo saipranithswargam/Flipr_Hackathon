@@ -1,0 +1,87 @@
+.loginSection {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #202225), url('../assets/app-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.loginParentContainer {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.loginChildContainer {
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 1.5rem !important;
+    border: 1px solid #000;
+    box-shadow: -3px 5px 15px #000;
+    text-align: center;
+
+}
+
+
+.loginChildContainer .welcomeMessage {
+    margin: 2rem 0 0 0;
+}
+
+.loginChildContainer p {
+    margin-top: 0.5rem;
+    color: #b9bbbe;
+}
+
+.loginChildContainer .footerContainer {
+    margin-top: 1rem;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+
+.loginChildContainer button {
+    color: #fff;
+    margin-top: 0.5rem;
+    padding: 0.9rem;
+    width: 100%;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: #5865f2;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 485px) {
+    .loginParentContainer {
+        background-color: transparent;
+        align-items: center;
+    }
+
+    .loginParentContainer>div {
+        width: fit-content;
+        min-height: 0;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .loginChildContainer {
+        border-radius: 0.5rem;
+        width: 30em;
+    }
+
+    .loginChildContainer .icon {
+        display: none;
+    }
+}

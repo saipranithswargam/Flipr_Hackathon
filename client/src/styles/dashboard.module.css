@@ -1,0 +1,31 @@
+.tradeDataContainer {
+  display: flex;
+}
+
+.tradeData {
+  width: 50%;
+}
+
+.tradeDataRange {
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.tradeDataRange p {
+  margin: 0.2rem 0;
+}
+
+@media (max-width: 940px) {
+  .tradeDataContainer {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .tradeData {
+    width: 100%;
+  }
+
+  .tradeDataRange {
+    width: 100%;
+  }
+}
